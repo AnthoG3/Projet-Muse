@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.mY{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.w45{
+    width:45%
+}
+
+.w40{
+    width: 40%;
+}
+
+.w35{
+    width: 35%;
+}
+
+.w30{
+    width:30%
+}
+
+.w20{
+    width:20%
+}
+
+.w15{
+    width: 15%;
+}
+
+img{
+    width:100%;
+}
+
+.bgGrey{
+    background-color: darkgray;
+}
+
+.text-center{
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* header*/
+
+header{
+    height: 100vh;
+    background-image: url(img/muse_fond.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+a{
+    font-size:2rem;
+    color: white;
+    text-decoration: none;
+}
+
+/* main */
+
+h2, h3{
+    font-size: 2rem;
+    color: darkgrey;
+    font-family: "Arial",sans-serif;
+}
+
+section:nth-of-type(2) h3, section:nth-of-type(2) h4 {
+    color:turquoise;
+}
+
+button{
+    display: block;
+    margin:30px auto;
+    background: none;
+    background-color: palevioletred;
+    border:solid 1px turquoise;
+    box-shadow: unset;
+    padding:15px 30px;
+    font-size: 2.2rem;
+    color: turquoise;
+    border-radius: 100vmax;
+}
+
+#arrow{
+    transform: rotate(180deg);
+}
